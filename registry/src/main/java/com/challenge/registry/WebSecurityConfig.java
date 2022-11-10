@@ -12,4 +12,5 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http.csrf().ignoringAntMatchers("/eureka/**");
         super.configure(http);
     }
+
 }
